@@ -12,6 +12,8 @@ import javax.ws.rs.core.MediaType;
  * User: DicksonH
  * Date: 03/03/14
  * Time: 12:32
+ *
+ * Main entry point for jobs
  */
 
 @Path("/job")
@@ -20,10 +22,17 @@ public class JobResource {
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/stringTest")
     public String getJobTest() {
+        return "hi there";
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    @Path("/jsonTest")
+    public String getJsonTest() {
         JSONObject json = new JSONObject();
         json.put("one", "first thing");
         json.put("two", "another thing");
-        return "hi there";
+        return json.toJSONString();
     }
 
     @GET

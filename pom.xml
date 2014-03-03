@@ -65,11 +65,6 @@
             <version>1.2.1</version>
         </dependency>
         <dependency>
-            <groupId>com.atlassian.labs</groupId>
-            <artifactId>fastdev-plugin</artifactId>
-            <version>2.2</version>
-        </dependency>
-        <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1</version>
