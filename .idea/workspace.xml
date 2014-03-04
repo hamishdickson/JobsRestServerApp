@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21e16a09-8335-4337-9244-fc250ec7d1df" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JobsRestServerApp.iws" />
@@ -117,7 +116,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="217" column="21" selection-start="2677" selection-end="2677" vertical-scroll-proportion="0.88778055" vertical-offset="2543" max-vertical-offset="3345">
+            <state line="217" column="21" selection-start="2677" selection-end="2677" vertical-scroll-proportion="0.90648377" vertical-offset="2528" max-vertical-offset="3345">
               <folding />
             </state>
           </provider>
@@ -751,7 +750,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="21" selection-start="2677" selection-end="2677" vertical-scroll-proportion="0.88778055" vertical-offset="2543" max-vertical-offset="3345">
+        <state line="217" column="21" selection-start="2677" selection-end="2677" vertical-scroll-proportion="0.90648377" vertical-offset="2528" max-vertical-offset="3345">
           <folding />
         </state>
       </provider>
