@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21e16a09-8335-4337-9244-fc250ec7d1df" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_atlassian_labs_fastdev_plugin_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_2_atlassian_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_netiq_websocket_0_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jpathwatch_jpathwatch_0_95.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jhc/figleaf/resources/jobs/JobResource.java" afterPath="$PROJECT_DIR$/src/main/java/com/jhc/figleaf/resources/jobs/JobResource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JobsRestServerApp.iml" afterPath="$PROJECT_DIR$/JobsRestServerApp.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JobsRestServerApp.iws" />
@@ -127,7 +117,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="217" column="21" selection-start="2676" selection-end="2676" vertical-scroll-proportion="0.92297816" vertical-offset="2536" max-vertical-offset="3345">
+            <state line="217" column="21" selection-start="2677" selection-end="2677" vertical-scroll-proportion="0.88778055" vertical-offset="2543" max-vertical-offset="3345">
               <folding />
             </state>
           </provider>
@@ -142,15 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jhc/figleaf/MyResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="27" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -159,15 +140,6 @@
                 <marker date="1393873788000" expanded="true" signature="2125:2329" placeholder="..." />
                 <marker date="1393873788000" expanded="true" signature="2350:2515" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecondResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jhc/figleaf/SecondResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -343,32 +315,6 @@
               <option name="myItemId" value="figleaf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JobsRestServerApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JobsRestServerApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="figleaf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -434,6 +380,26 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -518,6 +484,25 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -548,6 +533,11 @@
       <created>1393600145780</created>
       <updated>1393600145780</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add intellij stuff to gitignore">
+      <created>1393920509018</created>
+      <updated>1393920509018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -555,7 +545,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -592,6 +582,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Add intellij stuff to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add intellij stuff to gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -652,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jhc/figleaf/MyResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="75" column="21" selection-start="2696" selection-end="2881" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1620">
@@ -666,13 +651,6 @@
             <marker date="1393873788000" expanded="true" signature="2125:2329" placeholder="..." />
             <marker date="1393873788000" expanded="true" signature="2350:2515" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jhc/figleaf/SecondResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,20 +666,6 @@
             <marker date="1393873788000" expanded="true" signature="2125:2329" placeholder="..." />
             <marker date="1393873788000" expanded="true" signature="2350:2515" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jhc/figleaf/MyResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jhc/figleaf/SecondResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jhc/figleaf/MyResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="360">
@@ -755,20 +712,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jhc/figleaf/resources/jobs/JobImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jhc/figleaf/resources/jobs/Status.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jhc/figleaf/SecondResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
@@ -799,9 +742,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jhc/figleaf/resources/jobs/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="21" selection-start="2676" selection-end="2676" vertical-scroll-proportion="0.92297816" vertical-offset="2536" max-vertical-offset="3345">
+        <state line="217" column="21" selection-start="2677" selection-end="2677" vertical-scroll-proportion="0.88778055" vertical-offset="2543" max-vertical-offset="3345">
           <folding />
         </state>
       </provider>
