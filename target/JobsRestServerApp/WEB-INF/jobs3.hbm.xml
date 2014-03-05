@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.jhc.figleaf.resources.jobs.Jobs3" table="JOBS3">
+        <meta attribute="class-description">
+            This class contains the employee detail.
+        </meta>
+        <id name="codex" type="int" column="codex">
+            <generator class="native"/>
+        </id>
+        <property name="status" column="STATUS" type="string"/>
+        <property name="system" column="SYSTEM" type="string"/>
+        <property name="client" column="CLIENT" type="string"/>
+        <property name="doing" column="WHODO" type="string"/>
+        <property name="priority" column="PRIORI" type="string"/>
+        <property name="description" column="DESCRQ" type="string"/>
+    </class>
+</hibernate-mapping>
