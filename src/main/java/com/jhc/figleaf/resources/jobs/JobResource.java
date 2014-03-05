@@ -1,14 +1,12 @@
 package com.jhc.figleaf.resources.jobs;
 
-import com.jhc.figleaf.hibernate.HibernateUtils;
-import org.hibernate.Transaction;
-import org.hibernate.classic.Session;
+import com.jhc.figleaf.resources.jobs.exceptions.NoSuchJobException;
+import com.jhc.figleaf.utils.Tracey;
 import org.json.simple.JSONObject;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.List;
 
 /**
  * User: DicksonH
@@ -38,29 +36,30 @@ public class JobResource {
     }
 
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.APPLICATION_JSON)
     @Path("/{jobNumber}")
-    public Response getJob(@PathParam("jobNumber") String jobNumber) {
+    public Response getJob(@PathParam("jobNumber") int jobNumber) {
         try {
-            HibernateUtils.setUp();
-
-            Session session = HibernateUtils.getFactory().openSession();
-            Transaction tx = null;
-            tx = session.beginTransaction();
-
-            String query = "FROM jobs3 where codex=" + jobNumber;
-            List<Jobs3> list = session.createQuery(query).list();
-
-            Jobs3 job = list.get(0);
-
-            tx.commit();
-
-            session.close();
-
-            return Response.status(200).entity(job.toJson()).build();
+            String result = Tracey.getJob(jobNumber);
+            return Response.status(200).entity(result).build();
+        } catch (NoSuchJobException nsje) {
+            return Response.status(Response.Status.NOT_FOUND).build();
         } catch (Exception e) {
             System.out.println("That didn't work now did it ..." + e);
             throw new WebApplicationException(Response.Status.INTERNAL_SERVER_ERROR);
         }
     }
+
+    @PUT
+    @Produces(MediaType.APPLICATION_JSON)
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response createJob() {
+        String result = "";
+        return Response.status(200).entity(result).build();
+    }
+
+    @POST
+    @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
+
 }
