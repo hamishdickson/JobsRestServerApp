@@ -2,6 +2,7 @@ package com.jhc.figleaf.resources.jobs;
 
 import com.jhc.figleaf.resources.jobs.exceptions.NoSuchJobException;
 import com.jhc.figleaf.utils.Tracey;
+import com.wordnik.swagger.annotations.*;
 import org.json.simple.JSONObject;
 
 import javax.ws.rs.*;
@@ -17,10 +18,15 @@ import javax.ws.rs.core.Response;
  */
 
 @Path("/V1/job")
+@Api(value = "/V1/job", description = "Operations for jobs based shizzle")
 public class JobResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/stringTest")
+    @ApiOperation(value = "Find a boring string", notes = "Some note")
+    @ApiResponses(value = {
+            @ApiResponse(value = "ah ok", occurs = "1")
+    })
     public String getJobTest() {
         return "hi there";
     }
@@ -57,9 +63,9 @@ public class JobResource {
         String result = "";
         return Response.status(200).entity(result).build();
     }
-
+/*
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)*/
 
 }
