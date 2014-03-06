@@ -9,6 +9,10 @@
             <param-name>com.sun.jersey.config.property.packages</param-name>
             <param-value>com.jhc.figleaf;com.wordnik.swagger.jersey.listing</param-value>
         </init-param>
+        <init-param>
+            <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+            <param-value>true</param-value>
+        </init-param>
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet>
@@ -20,7 +24,7 @@
         </init-param>
         <init-param>
             <param-name>swagger.api.basepath</param-name>
-            <param-value>http://localhost:8002/api</param-value>
+            <param-value>http://localhost:8181/JobsRestServerApp/apis</param-value>
         </init-param>
         <load-on-startup>2</load-on-startup>
     </servlet>

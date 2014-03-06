@@ -1,0 +1,45 @@
+{
+  "apiVersion" : "1",
+  "swaggerVersion" : "1.1",
+  "basePath" : "/",
+  "resourcePath" : "/V1/job",
+  "apis" : [ {
+    "path" : "/V1/job",
+    "description" : "",
+    "operations" : [ {
+      "httpMethod" : "PUT",
+      "nickname" : "createJob",
+      "responseClass" : "Response"
+    } ]
+  }, {
+    "path" : "/V1/job/jsonTest",
+    "description" : "",
+    "operations" : [ {
+      "httpMethod" : "GET",
+      "nickname" : "getJsonTest",
+      "responseClass" : "string"
+    } ]
+  }, {
+    "path" : "/V1/job/stringTest",
+    "description" : "",
+    "operations" : [ {
+      "httpMethod" : "GET",
+      "nickname" : "getJobTest",
+      "responseClass" : "string"
+    } ]
+  }, {
+    "path" : "/V1/job/{jobNumber}",
+    "description" : "",
+    "operations" : [ {
+      "httpMethod" : "GET",
+      "nickname" : "getJob",
+      "responseClass" : "Response",
+      "parameters" : [ {
+        "paramType" : "path",
+        "name" : "jobNumber",
+        "dataType" : "int",
+        "required" : true
+      } ]
+    } ]
+  } ]
+}

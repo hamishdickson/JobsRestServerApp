@@ -24,9 +24,6 @@ public class JobResource {
     @Produces(MediaType.TEXT_PLAIN)
     @Path("/stringTest")
     @ApiOperation(value = "Find a boring string", notes = "Some note")
-    @ApiResponses(value = {
-            @ApiResponse(value = "ah ok", occurs = "1")
-    })
     public String getJobTest() {
         return "hi there";
     }
@@ -63,9 +60,19 @@ public class JobResource {
         String result = "";
         return Response.status(200).entity(result).build();
     }
-/*
+
+/*    *//**
+     * Create new job - don't know the job number
+     *//*
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)*/
+    @Produces(MediaType.APPLICATION_JSON)
+
+    *//**
+     * Update a job - know the job number
+     * This is idempotent ... yeah, I know long words ..
+     *//*
+    @PUT*/
+
 
 }

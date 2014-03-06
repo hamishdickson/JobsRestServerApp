@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Specification-Title: JBoss EJB 3.0
+Created-By: 1.5.0_18-b02 (Sun Microsystems Inc.)
+Ant-Version: Apache Ant 1.6.5
+Implementation-Title: JBoss EJB 3.0
+Specification-Vendor: JBoss
+Specification-Version: JBoss EJB 3.0 AS 4.2.0 GA
+Implementation-Vendor-Id: http://www.jboss.org/
+Implementation-Version: JBoss EJB 3.0 AS 4.2.0 GA
+Implementation-Vendor: JBoss
+Implementation-URL: http://www.jboss.com/products/ejb3
+

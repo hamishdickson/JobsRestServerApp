@@ -1,0 +1,12 @@
+{
+  "apiVersion" : "1",
+  "basePath" : "/apidocs",
+  "apis" : [ {
+    "path" : "/V1_job.{format}",
+    "description" : ""
+  }, {
+    "path" : "/V1_person.{format}",
+    "description" : ""
+  } ],
+  "swaggerVersion" : "1.1"
+}

@@ -1,0 +1,15 @@
+{
+  "apiVersion" : "1",
+  "swaggerVersion" : "1.1",
+  "basePath" : "/",
+  "resourcePath" : "/V1/person",
+  "apis" : [ {
+    "path" : "/V1/person/jsonTest",
+    "description" : "",
+    "operations" : [ {
+      "httpMethod" : "GET",
+      "nickname" : "getJsonTest",
+      "responseClass" : "string"
+    } ]
+  } ]
+}
